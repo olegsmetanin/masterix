@@ -1,0 +1,23 @@
+
+
+@font-face {
+  font-family: $app-icon-font-name;
+  src: url('#{$icon-font-path}#{$app-icon-font-name}.eot');
+  src: url('#{$icon-font-path}#{$app-icon-font-name}.eot?#iefix') format('embedded-opentype'),
+  //url('#{$icon-font-path}#{$app-icon-font-name}.woff') format('woff'),
+  url('#{$icon-font-path}#{$app-icon-font-name}.ttf') format('truetype'),
+  url('#{$icon-font-path}#{$app-icon-font-name}.svg##{$app-icon-font-name}') format('svg');
+}
+
+// Catchall baseclass
+.appglyphicon {
+  font-family: $app-icon-font-name ! important;
+}
+
+.appglyphicon-logo                { &:before { content: "\e001"; } }
+.appglyphicon-logo2               { &:before { content: "\e002"; } }
+.appglyphicon-logo3               { &:before { content: "\e003"; } }
+.appglyphicon-logo4               { &:before { content: "\e004"; } }
+.appglyphicon-phone               { &:before { content: "\e020"; } }
+.appglyphicon-asterisk            { &:before { content: "\e021"; } }
+.appglyphicon-cisco               { &:before { content: "\e022"; } }

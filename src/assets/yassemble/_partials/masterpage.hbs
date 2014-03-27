@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Masterix: {{title}}</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" type="text/css" href="{{basepath}}assets/css/appbootstrap.css">
+	<link rel="stylesheet" type="text/css" href="{{basepath}}assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+<header>
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand logo-title" href="/">
+				<span class="logo-icon">
+					<span class="glyphicon appglyphicon appglyphicon-phone" style="font-size:50px;"></span>
+				</span>
+					<span class="logo-text"><b>Masterix</b></span>
+				</a>
+
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="mailto:hi@masterix.ru">Пишите: hi@masterix.ru</a></li>
+					<li><a href="#">Звоните: +7 (495) 662-87-27</a></li>
+					<li><a href="#">ICQ: 9999881</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<span id="header_shadow" style="top: 51px;"></span>
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<!-- Container -->
+	{{#block "container"}}{{/block}}
+	<!--/Container -->
+
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 md-margin-bottom-40">
+				<!-- About -->
+				<div class="headline"><h2>Контакты:</h2></div>
+
+				<address class="md-margin-bottom-40">
+					101000, г. Москва, ул. Мясницкая, д.22, стр. 1, этаж 5, помещение 3, комната 3.<br>
+					Тел: +7(495)662-87-27<br>
+					Email: <a href="mailto:hi@masterix.ru" class="">hi@masterix.ru</a>
+				</address>
+
+			</div>
+			<!--/col-md-4-->
+
+		</div>
+		<!--/row-->
+	</div>
+	<!--/container-->
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{basepath}}assets/js/app.js"></script>
+</body>
+</html>
